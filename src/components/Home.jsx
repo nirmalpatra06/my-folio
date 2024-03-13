@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import HeroImage from "../assets/banner.png";
@@ -7,13 +8,11 @@ function Home() {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-700 flex items-center justify-center"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 flex items-center justify-center"
     >
       <div className="flex  flex-col items-center md:flex-row px-4 max-w-screen-lg h-full  mx-auto">
         <div className="text-white flex flex-col justify-center h-full">
-          <h1 className="text-4xl md:text-5xl font-bold">
-            I'm a Frontend Developer
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold">I'm a Frontend Dev</h1>
           <p className="text-gray-600 py-4 max-w-md">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
             assumenda nemo voluptatum sint porro, optio libero quo temporibus
@@ -27,7 +26,7 @@ function Home() {
             >
               <MdOutlineFileDownload
                 size={25}
-                className="group-hover:scale-125 duration-200"
+                className="group-hover:scale-125 duration-300"
               />
               <span>Resume</span>
             </a>

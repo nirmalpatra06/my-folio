@@ -16,6 +16,10 @@ const Navlinks = [
   },
   {
     id: 4,
+    name: "Experience",
+  },
+  {
+    id: 5,
     name: "Contact",
   },
 ];
