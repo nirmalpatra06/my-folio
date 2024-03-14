@@ -1,6 +1,6 @@
 import About from "./components/About";
-import EmailContact from "./components/EmailContact";
 import Experience from "./components/Experience";
+import EmailContact from "./components/EmailContact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
@@ -14,6 +14,7 @@ function App() {
       <About />
       <Portfolio />
       <Experience />
+      {/* <EmailContact /> */}
       <EmailContact />
       <SocialLinks />
     </>
