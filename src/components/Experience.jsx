@@ -49,7 +49,7 @@ function Experience() {
   return (
     <div
       name="experience"
-      className=" bg-gradient-to-b from-gray-800 to-black w-full   md:h-[750px] text-white"
+      className=" bg-gradient-to-b md:pt-[100px] from-gray-800 to-black w-full  pt-28 text-white"
     >
       <div className="max-w-screen-lg mx-auto px-4   flex flex-col justify-center  w-full h-full">
         <div className="pt-10">

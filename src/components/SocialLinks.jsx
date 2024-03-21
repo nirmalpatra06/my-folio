@@ -42,7 +42,7 @@ function SocialLinks() {
         {links.map((link) => (
           <li
             key={link.id}
-            className={`w-40 h-14 px-4 bg-gray-500  flex ml-[-100px] hover:ml-[-10px] duration-300 hover:rounded-md ${links.style}`}
+            className={`w-40 h-14 px-4 bg-gray-500 flex ml-[-100px] hover:ml-[-10px] duration-300 hover:rounded-md ${links.style}`}
           >
             <a
               className="flex justify-between items-center w-full"
