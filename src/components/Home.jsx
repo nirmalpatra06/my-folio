@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from "react";
-import HeroImage from "../assets/banner.png";
 import ProfileImg from "../assets/men.png";
 import { MdOutlineFileDownload } from "react-icons/md";
 
