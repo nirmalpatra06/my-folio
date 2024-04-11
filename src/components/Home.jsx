@@ -29,7 +29,7 @@ function Home() {
           </p>
           <div>
             <a
-              href="/JsQ.pdf"
+              href="/NirmalPatra_Resume.pdf"
               download={true}
               className="group animate-pulse flex items-center  rounded-md gap-1 p-2 bg-gradient-to-r from-cyan-300 to-blue-500 w-fit"
             >
